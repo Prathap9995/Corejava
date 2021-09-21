@@ -1,0 +1,73 @@
+Collection :- Collection is a group of object used to store and manipulate it.
+Collection Framework :- Which will provide interfaces and classes
+
+Need of Collection :-
+* We can store the group of elements into single entity using collections classes and interface
+* We can extend the size. i,e we can add or reduce elements in runtime. 
+* It can hold homogeneous and heterogeneous data.[ Different data types]
+* It has ready method to manipulate. So hence no need to write logics.
+
+
+Interfaces and Classes:- 
+  Collection interface is the root interface												
+  
+Collections is a class from java.utils package
+
+Collection Interface ==> *List Interface *Set Interface *Queue Interface
+
+List Interface :- 
+* List is child of Collection Interface
+* We can use it when we have group of object stored in single entity then we have to store in sorted order then we can use it.
+i,e Insertion order maintained
+* Duplicate also allowed
+* Not synchronized and not thread -safety
+
+Different classes of List :-
+*ArrayList		*LinkedList		*Vector[Extended from Stack]
+
+Set Interface:- 
+* Set is child of Collection Interface
+* Insertion order not maintained
+* Duplicates not allowed
+
+Set Interfaces Classes:-
+*HaseSet		*LinkedHashSet
+
+Queue Interfaces :-
+* Queue is also child of Collection Interface
+* Maintain to Prior to process i,e First in First out concept
+
+Queue Interfaces classes :- 
+* PriorityQueue
+
+
+Map Interface
+Apart from all the interfaces we have one more independent interface i,e Map Interface   
+* Map is a not a child Interface of Collection
+* Objects are in the form of Key and Value format
+* Keys are unique should not be duplicate
+* It contains multiple null values but only one null Key
+* Not thread safe and not synchronized
+
+Map Interfaces Classes :-
+*HashMap		*LinkedHashMap
+
+Methods are available in Collection:-
+* add(object) 				: To add an object
+* addAll(collection)	: To add multiple object
+* remove()					: To remove
+* removeAll()				: To remove all
+* retainAll()				: Retains the mentioned object and Except these object rest of the object will be removed
+* clear()					: To clear all
+* isEmpty()					: To check it is empty or not
+* size()					: Gives the size of array
+* contains()				: To check whether particular object is present or not
+* containsAll()				: To check group of element is present or not
+* toArray()					: Converts to array
+
+Methods of List Interfaces:-
+* add(index, object)		: added in particular index
+* get(index)				: To get object
+* set(index, object)		: It will replace the new object with existing object of given index
+
+
