@@ -7,7 +7,7 @@ public class For {
 //		int avg = 0;
 //		int count = 0;
 //		int count1 = 0;
-//        int sum2=0;
+       int sum2=0;
 	/*	for(int i = 0;i<a.length; i++) 
 		{
 			System.out.println(a[i]);
